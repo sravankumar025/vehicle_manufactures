@@ -1,0 +1,56 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#searchBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+input[type="text"],select{
+    height: 30px;
+    width: 210px;
+}
+th{
+    background-color: rgb(32, 8, 55);
+    color: white;
+}
+
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 50px;
+    width: 95vw;
+}
+td{
+    text-align: center;
+}
+#table-content{
+    padding: 40px;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(173, 164, 231);
+}
+
+.modelBox{
+    height: 350px;
+    width: 350px;
+    border: 1px solid black;
+    position: relative;
+    top: -2100px;
+    left: 500px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.content{
+    position: absolute;
+    top: 65px;
+    left: 120px;
+}
+
+.s1{
+    background-color: lightslategray;
+}
